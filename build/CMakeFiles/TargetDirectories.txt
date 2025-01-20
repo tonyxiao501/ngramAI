@@ -1,0 +1,5 @@
+C:/Users/tonyx/Documents/ngramAI/build/CMakeFiles/edit_cache.dir
+C:/Users/tonyx/Documents/ngramAI/build/CMakeFiles/rebuild_cache.dir
+C:/Users/tonyx/Documents/ngramAI/build/src/CMakeFiles/ngramAI.dir
+C:/Users/tonyx/Documents/ngramAI/build/src/CMakeFiles/edit_cache.dir
+C:/Users/tonyx/Documents/ngramAI/build/src/CMakeFiles/rebuild_cache.dir
