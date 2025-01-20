@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
       doTokenize = true;
     } else if (arg == "--generate") {
       doGenerate = true;
-    } else if (arg == "--numWords" && i + 1 < argc){
+    } else if (arg == "--numWords" && i + 1 < argc) {
       num_words = std::max(1, std::atoi(argv[++i]));
     }
   }
@@ -34,15 +34,15 @@ int main(int argc, char* argv[]) {
   std::ifstream tokenStream(tokenFile);
 
   if (doTokenize) {
-    std::ifstream file("novel.txt");             // 打开 "novel.txt" 文件
-    if (!file) {                            // 检查文件是否成功打开
+    std::ifstream file("novel.txt");                  // 打开 "novel.txt" 文件
+    if (!file) {                                      // 检查文件是否成功打开
       std::cerr << "无法打开 novel.txt" << std::endl; // 如果无法打开文件，输出错误信息
-      return 1;                             // 以错误代码退出程序
+      return 1;                                       // 以错误代码退出程序
     }
 
-    std::string line;                                               // 用于存储文件中的每一行
+    std::string line;                                          // 用于存储文件中的每一行
     while (getline(file, line)) {                              // 读取文件中的每一行
-      std::vector<std::string> tokens = tokenize(line);                  // 将行内容进行tokenize
+      std::vector<std::string> tokens = tokenize(line);        // 将行内容进行tokenize
       words.insert(words.end(), tokens.begin(), tokens.end()); // 将token添加到words向量中
     }
     file.close(); // 关闭文件
@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
   }
   if (doGenerate) {
     std::ifstream tokenStream(tokenFile);
-    if (!tokenStream){
+    if (!tokenStream) {
       std::cerr << tokenFile << "不存在，无法生成" << std::endl;
       return 1;
     }
@@ -77,19 +77,19 @@ int main(int argc, char* argv[]) {
     }
 
     std::unordered_map<std::string, std::vector<std::string>> prediction; // 用于存储单词预测的映射
-    for (size_t i = 0; i < words.size() - 2; ++i) {   // 遍历words向量
-      std::string key = words[i] + " " + words[i + 1];     // 用两个连续的单词创建键
-      prediction[key].push_back(words[i + 2]);        // 将下一个单词添加到预测映射中
+    for (size_t i = 0; i < words.size() - 2; ++i) {                       // 遍历words向量
+      std::string key = words[i] + " " + words[i + 1];                    // 用两个连续的单词创建键
+      prediction[key].push_back(words[i + 2]);                            // 将下一个单词添加到预测映射中
     }
 
-    std::vector<std::string> keys;                  // 用于存储所有键的向量
+    std::vector<std::string> keys;        // 用于存储所有键的向量
     for (const auto& pair : prediction) { // 遍历预测映射
       keys.push_back(pair.first);         // 将每个键添加到keys向量中
     }
 
-    if (keys.empty()) {                           // 检查是否存在键
+    if (keys.empty()) {                                     // 检查是否存在键
       std::cerr << "没有可用的键，无法生成。" << std::endl; // 如果没有键，输出错误信息
-      return 1;                                   // 以错误代码退出程序
+      return 1;                                             // 以错误代码退出程序
     }
 
     std::random_device rd;                                   // 随机设备用于种子生成
