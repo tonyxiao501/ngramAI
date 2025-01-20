@@ -65,7 +65,20 @@ int main() {
     string next = next_words[dis(gen)];                       // Select a random next word
     sentence += " " + next;                                   // Add the next word to the sentence
     size_t pos = current.find(' ');                           // Find the position of the space in the current key
-    current = current.substr(pos + 1) + " " + next;           // Update the current key to the last two words
+    if (pos == std::string::npos) {
+      cerr << "Error: No space found in current key '" << current << "'." << endl;
+      break;
+    }
+    if (pos + 1 >= current.size()) {
+      cerr << "Error: Position out of range in current key '" << current << "'." << endl;
+      break;
+    }
+    string new_key = current.substr(pos + 1) + " " + next;
+    if (new_key.empty()) {
+      cerr << "Error: New key is empty." << endl;
+      break;
+    }
+    current = new_key;
   }
 
   cout << sentence << endl; // Print the generated sentence
