@@ -6,6 +6,7 @@
 #include <string>        // For string operations
 #include <unordered_map> // For hash table (unordered_map)
 #include <vector>        // For dynamic array (vector)
+
 #include "utils.h"
 
 using namespace std;
@@ -48,14 +49,18 @@ int main() {
   mt19937 gen(rd()); // Mersenne Twister random number generator
 
   uniform_int_distribution<> key_dis(0, keys.size() - 1); // Distribution for selecting a random key
-  string current = keys[key_dis(gen)];                    // Select a random key
-  string sentence = current;                              // Initialize the sentence with the selected key
-
-  for (int i = 0; i < 10000000; ++i) {                       // Generate up to 100 words
+  string current = keys[key_dis(gen)];
+  string sentence = current;
+  for (int i = 0; i < 100; ++i) {                       // Generate up to 100 words
     if (prediction.find(current) == prediction.end()) { // Check if the current key exists in the prediction map
-      break;                                            // Break the loop if the key is not found
+      cerr << "Error: key '" << current << "' not found in prediction map." << endl;
+      break; // Break the loop if the key is not found
     }
-    vector<string> next_words = prediction[current];          // Get the next words for the current key
+    vector<string> next_words = prediction[current]; // Get the next words for the current key
+    if (next_words.empty()) {
+      cerr << "Error: no next words for key '" << current << "'." << endl;
+      break;
+    }
     uniform_int_distribution<> dis(0, next_words.size() - 1); // Distribution for selecting a random next word
     string next = next_words[dis(gen)];                       // Select a random next word
     sentence += " " + next;                                   // Add the next word to the sentence
