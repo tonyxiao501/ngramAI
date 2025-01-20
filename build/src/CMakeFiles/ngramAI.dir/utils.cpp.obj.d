@@ -177,4 +177,34 @@ src/CMakeFiles/ngramAI.dir/utils.cpp.obj: \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unicode-data.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
- C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/regex \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stack \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/deque \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_deque.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/deque.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_stack.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_ptr.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_function.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tree.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/node_handle.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_map.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_constants.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_error.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_automaton.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_automaton.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_scanner.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_scanner.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_compiler.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_compiler.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex.tcc \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_executor.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_executor.tcc
