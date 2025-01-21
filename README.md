@@ -1,39 +1,34 @@
-# 项目名称
-ngramAI
+# ngramAI
 
 ## 项目简介
-该项目是一个基于C++的n-gram模型实现，旨在处理和分析文本数据。它包含一个主程序和一些实用函数，能够执行特定的文本处理任务。
+ngramAI 是一个基于 C++ 的 n-gram 模型实现，旨在处理和分析文本数据。该项目通过分词和文本生成等功能模块，能够高效地执行各种文本处理任务，适用于自然语言处理和数据分析应用。
+### 分词 (Tokenization)
+- **功能描述**：读取文本文件并将其分解为单词列表。
+- **主要函数**：`doTokenizeFunction`
+- **文件**：
+  - `tokenize.h`
+  - `tokenize.cpp`
 
-## 文件结构
-```
-cpp-project
-├── src
-│   ├── main.cpp        # 应用程序的入口点，包含主函数和程序的主要逻辑
-│   ├── utils.cpp       # 实用函数的实现，供主程序调用
-│   └── CMakeLists.txt  # 配置源文件的CMake构建设置
-├── CMakeLists.txt      # 项目的根CMake配置文件
-└── README.md           # 项目的文档，介绍功能和使用方法
-```
+### 文本生成 (Generation)
+- **功能描述**：基于 n-gram 模型生成指定数量的单词，模拟自然语言文本。
+- **主要函数**：`doGenerateFunction`
+- **文件**：
+  - `generate.h`
+  - `generate.cpp`
 
-## 编译和运行
-1. 确保已安装CMake和g++编译器。
-2. 在项目根目录下创建一个构建目录：
-   ```bash
-   mkdir build
-   cd build
-   ```
-3. 运行CMake以生成构建文件：
-   ```bash
-   cmake ..
-   ```
-4. 编译项目：
-   ```bash
-   make
-   ```
-5. 运行生成的可执行文件：
-   ```bash
-   ./ngramAI
-   ```
+### 实用函数 (Utilities)
+- **功能描述**：提供辅助功能，如分词逻辑的实现等。
+- **主要文件**：
+  - `utils.h`
+  - `utils.cpp`
 
 ## 使用说明
-在运行程序时，可以根据需要提供输入文件和参数，以便进行文本分析和处理。具体的使用方法将在后续文档中详细说明。
+项目通过命令行参数控制不同的功能模块。以下是可用的参数：
+
+- `--tokenize`：执行分词操作。
+- `--generate`：执行文本生成功能。
+- `--numWords <number>`：指定生成文本的单词数量（默认为100）。
+
+**示例命令**：
+```bash
+ngramAI --tokenize --generate --numWords 50
