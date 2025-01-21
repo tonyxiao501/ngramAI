@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/tonyx/Documents/ngramAI/src/generate.cpp" "src/CMakeFiles/ngramAI.dir/generate.cpp.obj" "gcc" "src/CMakeFiles/ngramAI.dir/generate.cpp.obj.d"
   "C:/Users/tonyx/Documents/ngramAI/src/main.cpp" "src/CMakeFiles/ngramAI.dir/main.cpp.obj" "gcc" "src/CMakeFiles/ngramAI.dir/main.cpp.obj.d"
+  "C:/Users/tonyx/Documents/ngramAI/src/tokenizer.cpp" "src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj" "gcc" "src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj.d"
   "C:/Users/tonyx/Documents/ngramAI/src/utils.cpp" "src/CMakeFiles/ngramAI.dir/utils.cpp.obj" "gcc" "src/CMakeFiles/ngramAI.dir/utils.cpp.obj.d"
   )
 

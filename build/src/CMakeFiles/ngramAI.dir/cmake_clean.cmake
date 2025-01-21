@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ngramAI.dir/generate.cpp.obj"
+  "CMakeFiles/ngramAI.dir/generate.cpp.obj.d"
   "CMakeFiles/ngramAI.dir/main.cpp.obj"
   "CMakeFiles/ngramAI.dir/main.cpp.obj.d"
+  "CMakeFiles/ngramAI.dir/tokenizer.cpp.obj"
+  "CMakeFiles/ngramAI.dir/tokenizer.cpp.obj.d"
   "CMakeFiles/ngramAI.dir/utils.cpp.obj"
   "CMakeFiles/ngramAI.dir/utils.cpp.obj.d"
   "libngramAI.dll.a"

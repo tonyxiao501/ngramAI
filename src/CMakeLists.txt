@@ -13,6 +13,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SRCS
     main.cpp
     utils.cpp
+    generate.cpp
+    tokenizer.cpp
 )
 
 # 添加可执行文件

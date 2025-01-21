@@ -129,6 +129,30 @@ ngramAI/fast:
 	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/build
 .PHONY : ngramAI/fast
 
+generate.obj: generate.cpp.obj
+.PHONY : generate.obj
+
+# target to build an object file
+generate.cpp.obj:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/generate.cpp.obj
+.PHONY : generate.cpp.obj
+
+generate.i: generate.cpp.i
+.PHONY : generate.i
+
+# target to preprocess a source file
+generate.cpp.i:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/generate.cpp.i
+.PHONY : generate.cpp.i
+
+generate.s: generate.cpp.s
+.PHONY : generate.s
+
+# target to generate assembly for a file
+generate.cpp.s:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/generate.cpp.s
+.PHONY : generate.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +176,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+tokenizer.obj: tokenizer.cpp.obj
+.PHONY : tokenizer.obj
+
+# target to build an object file
+tokenizer.cpp.obj:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj
+.PHONY : tokenizer.cpp.obj
+
+tokenizer.i: tokenizer.cpp.i
+.PHONY : tokenizer.i
+
+# target to preprocess a source file
+tokenizer.cpp.i:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/tokenizer.cpp.i
+.PHONY : tokenizer.cpp.i
+
+tokenizer.s: tokenizer.cpp.s
+.PHONY : tokenizer.s
+
+# target to generate assembly for a file
+tokenizer.cpp.s:
+	cd /d C:\Users\tonyx\Documents\ngramAI\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ngramAI.dir\build.make src/CMakeFiles/ngramAI.dir/tokenizer.cpp.s
+.PHONY : tokenizer.cpp.s
 
 utils.obj: utils.cpp.obj
 .PHONY : utils.obj
@@ -186,9 +234,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ngramAI
+	@echo ... generate.obj
+	@echo ... generate.i
+	@echo ... generate.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tokenizer.obj
+	@echo ... tokenizer.i
+	@echo ... tokenizer.s
 	@echo ... utils.obj
 	@echo ... utils.i
 	@echo ... utils.s

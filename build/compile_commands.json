@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/tonyx/Documents/ngramAI/build/src",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++23 -o CMakeFiles\\ngramAI.dir\\main.cpp.obj -c C:\\Users\\tonyx\\Documents\\ngramAI\\src\\main.cpp",
+  "file": "C:/Users/tonyx/Documents/ngramAI/src/main.cpp",
+  "output": "src/CMakeFiles/ngramAI.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/tonyx/Documents/ngramAI/build/src",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++23 -o CMakeFiles\\ngramAI.dir\\utils.cpp.obj -c C:\\Users\\tonyx\\Documents\\ngramAI\\src\\utils.cpp",
+  "file": "C:/Users/tonyx/Documents/ngramAI/src/utils.cpp",
+  "output": "src/CMakeFiles/ngramAI.dir/utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/tonyx/Documents/ngramAI/build/src",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++23 -o CMakeFiles\\ngramAI.dir\\generate.cpp.obj -c C:\\Users\\tonyx\\Documents\\ngramAI\\src\\generate.cpp",
+  "file": "C:/Users/tonyx/Documents/ngramAI/src/generate.cpp",
+  "output": "src/CMakeFiles/ngramAI.dir/generate.cpp.obj"
+},
+{
+  "directory": "C:/Users/tonyx/Documents/ngramAI/build/src",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++23 -o CMakeFiles\\ngramAI.dir\\tokenizer.cpp.obj -c C:\\Users\\tonyx\\Documents\\ngramAI\\src\\tokenizer.cpp",
+  "file": "C:/Users/tonyx/Documents/ngramAI/src/tokenizer.cpp",
+  "output": "src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj"
+}
+]

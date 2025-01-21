@@ -217,4 +217,6 @@ src/CMakeFiles/ngramAI.dir/main.cpp.obj: \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/node_handle.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/erase_if.h \
- C:\Users\tonyx\Documents\ngramAI\src\utils.h
+ C:\Users\tonyx\Documents\ngramAI\src\utils.h \
+ C:\Users\tonyx\Documents\ngramAI\src\generate.h \
+ C:\Users\tonyx\Documents\ngramAI\src\tokenizer.h

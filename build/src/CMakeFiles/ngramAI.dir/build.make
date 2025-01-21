@@ -99,21 +99,53 @@ src/CMakeFiles/ngramAI.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ngramAI.dir/utils.cpp.s"
 	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tonyx\Documents\ngramAI\src\utils.cpp -o CMakeFiles\ngramAI.dir\utils.cpp.s
 
+src/CMakeFiles/ngramAI.dir/generate.cpp.obj: src/CMakeFiles/ngramAI.dir/flags.make
+src/CMakeFiles/ngramAI.dir/generate.cpp.obj: C:/Users/tonyx/Documents/ngramAI/src/generate.cpp
+src/CMakeFiles/ngramAI.dir/generate.cpp.obj: src/CMakeFiles/ngramAI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tonyx\Documents\ngramAI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/ngramAI.dir/generate.cpp.obj"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ngramAI.dir/generate.cpp.obj -MF CMakeFiles\ngramAI.dir\generate.cpp.obj.d -o CMakeFiles\ngramAI.dir\generate.cpp.obj -c C:\Users\tonyx\Documents\ngramAI\src\generate.cpp
+
+src/CMakeFiles/ngramAI.dir/generate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ngramAI.dir/generate.cpp.i"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tonyx\Documents\ngramAI\src\generate.cpp > CMakeFiles\ngramAI.dir\generate.cpp.i
+
+src/CMakeFiles/ngramAI.dir/generate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ngramAI.dir/generate.cpp.s"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tonyx\Documents\ngramAI\src\generate.cpp -o CMakeFiles\ngramAI.dir\generate.cpp.s
+
+src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj: src/CMakeFiles/ngramAI.dir/flags.make
+src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj: C:/Users/tonyx/Documents/ngramAI/src/tokenizer.cpp
+src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj: src/CMakeFiles/ngramAI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tonyx\Documents\ngramAI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj -MF CMakeFiles\ngramAI.dir\tokenizer.cpp.obj.d -o CMakeFiles\ngramAI.dir\tokenizer.cpp.obj -c C:\Users\tonyx\Documents\ngramAI\src\tokenizer.cpp
+
+src/CMakeFiles/ngramAI.dir/tokenizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ngramAI.dir/tokenizer.cpp.i"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tonyx\Documents\ngramAI\src\tokenizer.cpp > CMakeFiles\ngramAI.dir\tokenizer.cpp.i
+
+src/CMakeFiles/ngramAI.dir/tokenizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ngramAI.dir/tokenizer.cpp.s"
+	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tonyx\Documents\ngramAI\src\tokenizer.cpp -o CMakeFiles\ngramAI.dir\tokenizer.cpp.s
+
 # Object files for target ngramAI
 ngramAI_OBJECTS = \
 "CMakeFiles/ngramAI.dir/main.cpp.obj" \
-"CMakeFiles/ngramAI.dir/utils.cpp.obj"
+"CMakeFiles/ngramAI.dir/utils.cpp.obj" \
+"CMakeFiles/ngramAI.dir/generate.cpp.obj" \
+"CMakeFiles/ngramAI.dir/tokenizer.cpp.obj"
 
 # External object files for target ngramAI
 ngramAI_EXTERNAL_OBJECTS =
 
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/main.cpp.obj
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/utils.cpp.obj
+src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/generate.cpp.obj
+src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/tokenizer.cpp.obj
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/build.make
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/linkLibs.rsp
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/objects1.rsp
 src/ngramAI.exe: src/CMakeFiles/ngramAI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tonyx\Documents\ngramAI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ngramAI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tonyx\Documents\ngramAI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ngramAI.exe"
 	cd /d C:\Users\tonyx\Documents\ngramAI\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ngramAI.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
