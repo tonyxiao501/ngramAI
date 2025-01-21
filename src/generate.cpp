@@ -1,11 +1,11 @@
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
+#include <unordered_map>
+#include <random>
 
 #include "tokenizer.h"
 #include "utils.h"
-#include <unordered_map>
-#include <random>
 
 const std::string tokenFile = "tokens.dat";
 void doGenerateFunction(std::vector<std::string>& words, int num_words) {
