@@ -22,6 +22,9 @@ void doGenerateFunction(std::vector<std::string>& words, int num_words) {
     if (words.size() < 3) {
       throw std::runtime_error("单词数量不足以构建预测模型。");
     }
+    if (num_words <= 0) {
+      throw std::invalid_argument("num_words 必须是一个正整数");
+    }
   } catch (const std::exception& e) {
     std::cerr << "错误: " << e.what() << std::endl;
   }
